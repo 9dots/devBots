@@ -1,8 +1,8 @@
 # Summary
 
-* Sumo
-  * lesson 1
+* [Introduction](README.md)
+* [Sumo](sumo.md)
+   * lesson 1
 * Soccer
-  * lesson 1
-
+   * lesson 1
 
