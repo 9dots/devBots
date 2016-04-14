@@ -4,6 +4,8 @@
 * [Sumo](sumo.md)
    * [lesson 1](sumo_lesson_1.md)
    * [lesson 2](lesson_2.md)
+   * lesson 3
+   * lesson 4
 * Soccer
    * [lesson 1](lesson_1.md)
 
