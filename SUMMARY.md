@@ -6,7 +6,7 @@
    * [lesson 2](lesson_2.md)
    * [lesson 3](lesson_3.md)
    * [lesson 4](lesson_4.md)
-   * sumo rules
+   * [sumo rules](sumo_rules.md)
 * Soccer
    * [lesson 1](lesson_1.md)
 
