@@ -5,7 +5,7 @@
 **Arena Specifications:** 2 ½’ x 4’   
 
 ####Event Summary: 
-Two robots will compete to push the opposing robot off the sumo mat. Robots will begin in a dueling position, back to back and facing away from each other. No weapons are allowed. 
+Two robots will compete to push the opposing robot off the sumo mat. Robots will begin in a duel position. No weapons are allowed. 
 
 ####General Rules:
 1. No persons may enter the ring once the competition has begun. 
