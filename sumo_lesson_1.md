@@ -1,4 +1,4 @@
-# lesson 1
+# Intro to EV3.sh
 
 ####Overview
 In this lesson, students will use ev3.sh to program their Lego EV3 robots.
