@@ -12,7 +12,29 @@ By the end of the lesson, students will be able to
 
 ####Functions
 Students will see the following code on the homepage of ev3.sh:
+```
+var steer = move()
 
+function main (input) {
+  if (input === 'forward') {
+    forward()
+  } else if (input === 'back') {
+    back()
+  }
+}
+
+function forward () {
+  out('moving forward')
+  steer.rotations(1, 40, 0)
+  out('done')
+}
+
+function back () {
+  out('moving back')
+  steer.rotations(-1, 40, 0)
+  out('done')
+}
+```
 
 Introduce students to ev3.sh
 Create functions for steering (ex: forward, back, left, right)
