@@ -14,6 +14,9 @@ By the end of the lesson, students will be able to
 Students will see the following code on the homepage of ev3.sh:
 
 ```
+var {loop, move, motor, read, sleep, out} = require('robot-loop')
+loop(main /*,ip address*/)
+
 var steer = move()
 
 function main (input) {
@@ -47,12 +50,15 @@ function forward () {
   out('done')
 }
 ```
-4. The out is a message displayed on the right side of the screen throughout the function call.
+4. The out is a message displayed on the right side of the screen when the function is called.
 5. steer.rotations controls the wheel rotation, speed, and direction of the robot. 
---* The first parameter determines wheel rotation. 1 = one wheel rotation.
-..* Second parameter determines speed. Speed can be any number between 1 - 100.
-..* Third parameter determines direction. 0 is straight. A number between -100 and -1 controls severity of left turn. A number between 1 and 100 controls severity of right turn. 
-6. 
+  + The first parameter determines wheel rotation. 1 = one wheel rotation.
+  + Second parameter determines speed. Speed can be any number between 1 - 100.
+  + Third parameter determines direction. 0 is straight. A number between -100 and -1 controls severity of left turn. A number between 1 and 100 controls severity of right turn. 
+6. The forward function currently moves one wheel rotation, at a speed of 40, in the straight direction. 
+7. Walk through back function and ask students to explain the steer.rotations parameters. 
+8. Allow students to connect their robots and call the forward and back function to move their robot.
+9. Any changes must be saved by pushing the ```Run Code``` button. 
 
 
 Introduce students to ev3.sh
