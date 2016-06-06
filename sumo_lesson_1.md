@@ -10,7 +10,9 @@ By the end of the lesson, students will be able to
 * create a function
 * read simple conditionals
 
-####Functions
+####Introduce Concept
+
+#####Functions
 Students will see the following code on the homepage of ev3.sh:
 
 ```
@@ -61,9 +63,13 @@ function forward () {
 9. Any changes must be saved by pushing the ```Run Code``` button. 
 
 
-Introduce students to ev3.sh
-Create functions for steering (ex: forward, back, left, right)
-Have students complete simple maze using the functions
+####Engage
+1. As a group, work with students to create a left and right function. Discuss importance of syntax and go step by step.
+2. Add else if to main function to accept input for left and right functions.
+3. Have students complete a simple maze using the new functions. 
+
+
+
 
 lesson 6 - working on your code worksheet
 lesson 7 - working on your build worksheet
