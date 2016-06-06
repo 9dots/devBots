@@ -12,6 +12,7 @@ By the end of the lesson, students will be able to
 
 ####Functions
 Students will see the following code on the homepage of ev3.sh:
+
 ```
 var steer = move()
 
@@ -35,6 +36,19 @@ function back () {
   out('done')
 }
 ```
+
+1. ```var steer = move()``` sets up the robot steering command.
+2. The main function sets up the interactive page on the right side of the screen. Students may call functions in the ev3 input box to move robot.
+3. A function is a reusable set of instructions. The functions in ev3.sh are written like this:
+```
+function forward () {
+  out('moving forward')
+  steer.rotations(1, 40, 0)
+  out('done')
+}
+```
+4. 
+
 
 Introduce students to ev3.sh
 Create functions for steering (ex: forward, back, left, right)
