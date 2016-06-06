@@ -62,6 +62,11 @@ function forward () {
 8. Allow students to connect their robots and call the forward and back function to move their robot.
 9. Any changes must be saved by pushing the ```Run Code``` button. 
 
+#####If/else Conditionals
+Students will utilize if/else if conditionals in their code to program specific instructions.
+
+
+
 
 ####Engage
 1. As a group, work with students to create a left and right function. Discuss importance of syntax and go step by step.
