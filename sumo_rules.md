@@ -1,4 +1,4 @@
-# sumo rules
+# Sumo game rules
 
 **Robots per Game:** Two  
 **Length of Game:** 3 Minutes  
