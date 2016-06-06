@@ -15,7 +15,7 @@ By the end of the lesson, students will be able to
 #####Functions
 Students will see the following code on the homepage of ev3.sh:
 
-```
+```js
 var {loop, move, motor, read, sleep, out} = require('robot-loop')
 loop(main /*,ip address*/)
 
