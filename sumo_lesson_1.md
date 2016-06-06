@@ -49,7 +49,7 @@ function forward () {
 ```
 4. The out is a message displayed on the right side of the screen throughout the function call.
 5. steer.rotations controls the wheel rotation, speed, and direction of the robot. 
-..* The first parameter determines wheel rotation. 1 = one wheel rotation.
+--* The first parameter determines wheel rotation. 1 = one wheel rotation.
 ..* Second parameter determines speed. Speed can be any number between 1 - 100.
 ..* Third parameter determines direction. 0 is straight. A number between -100 and -1 controls severity of left turn. A number between 1 and 100 controls severity of right turn. 
 6. 
