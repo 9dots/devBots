@@ -65,7 +65,9 @@ function forward () {
 #####If/else Conditionals
 Students will utilize if/else if conditionals in their code to program specific instructions.
 
-Explore  
+Explore 
+  
+Play a game where students react to different situations based on instructions. For example:
 
 
 
