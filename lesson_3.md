@@ -2,6 +2,7 @@
 
 ####Learning Goals
 
+
 ####Explain
 Students will use if/else if conditionals in their code to program specific instructions.
   
@@ -25,7 +26,7 @@ if (shirtColor === 'red') {
 ```
 3. Allow students to interpret the rules on their own and act based on the condition. 
 
-#####Questions
+####Questions
 1. Why were the conditionals (if/else if) important for this exercise?
 2. What special syntax did you notice in the code?
 3. Why do you think there are three equal signs?
