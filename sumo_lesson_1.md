@@ -57,11 +57,11 @@ function forward () {
   + The first parameter determines wheel rotation. 1 = one wheel rotation.
   + Second parameter determines speed. Speed can be any number between 1 - 100.
   + Third parameter determines direction. 0 is straight. A number between -100 and -1 controls severity of left turn. A number between 1 and 100 controls severity of right turn. 
-6. The forward function currently moves one wheel rotation, at a speed of 40, in the straight direction. 
-7. Walk through back function and ask students to explain the steer.rotations parameters. 
-8. Allow students to connect their robots and call the forward and back function to move their robot.
+6. The forward function in the starter code moves one wheel rotation, at a speed of 40, in the straight direction. 
+7. Have students walk through back function and explain the steer.rotations parameters. 
+8. Create left and right functions with students and emphasize importance of correct syntax.
 9. Any changes must be saved by pushing the ```Run Code``` button. 
-10. At the end of the day, students should save gist and name their sumo code.  
+
 
 To take a deep dive into functions, see 'defining functions' lesson. 
 
@@ -83,13 +83,15 @@ function main (input) {
 4. If the input is equal to 'forward', the ```forward()``` function is called.
 5. Else, the function continues to check if the input is equal to 'back'. If that condition is true, the ```back()``` function is called. 
 6. Work with students to add 'else if' statements to the main function and check input for 'left' and 'right'. If true, the respective functions should be called. 
+7. Emphasize importance of correct syntax.
 
 
 
 ####Engage
-1. As a group, work with students to create a left and right function. Discuss importance of syntax and go step by step.
+1. Allow students time to adjust their left and right functions.
 2. Add else if to main function to accept input for left and right functions.
 3. Have students complete a simple maze using the new functions. 
+4. At the end of the day, students should save gist and name their sumo code.  
 
 
 
