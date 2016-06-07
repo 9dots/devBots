@@ -25,7 +25,8 @@ Students will create functions to complete a maze. The goal is to complete in th
   + Once the open curly brace has been written, immediately press enter to create the closing curly brace. This will also leave a line between the two curly braces to write the instructions. 
 
 **Engage**
-
+1. Students will create new functions to shorten their code to complete the maze.
+2. Tally how many commands each student had to entered 
 
  
 Students should save code as 'defining functions'. (This code should be separate from their sumo code). 
