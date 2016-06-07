@@ -1,7 +1,7 @@
 # If/else Conditionals
 
 ####Learning Goals
-
+Students learn to read and write conditionals.
 
 ####Explain
 Students will use if/else if conditionals in their code to program specific instructions.
