@@ -38,4 +38,5 @@ function forward () {
 3. Students should save code as 'defining functions'. (This code should be separate from their sumo code). 
  
  
- 
+####Justify
+Walk through the new code and ask students to explain each line and symbol used in creating a function. 
