@@ -22,24 +22,19 @@ Students will create functions to complete a maze. The goal is to complete in th
 4. Next, name the function.
 5. A function name must always be followed by open and close parentheses. 
 6. Then, the function requires open and close curly braces. The instructions for the function will be written between the two curly braces.
-  + Once the open curly brace has been written, immediately press enter to create the closing curly brace. This will also leave a line between the two curly braces to write the instructions. 
+  + Once the open curly brace is written, immediately press enter to create the closing curly brace. This will also leave a line between the two curly braces to write the instructions.
+```js
+function forward () {
+  out('moving forward')
+  steer.rotations(1, 40, 0)
+  out('done')
+}
+```
 
 **Engage**
 1. Students will create new functions to shorten their code to complete the maze.
 2. Tally number of commands each student had to enter.
 3. Students should save code as 'defining functions'. (This code should be separate from their sumo code). 
  
- 
- 
- Students will sumo wrestle using the functions they have created. 
- 
- Difficult - how can we simplify?
- Create functions with multiple steps and utilize sensors.
-
-Ultrasonic sensor.
- See: attack, else: turn.
- 
- Color sensor.
- See: move forward or backward.
  
  
