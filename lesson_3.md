@@ -23,4 +23,7 @@ if (shirtColor === 'red') {
   cheeseSmile()
 }
 ```
+3. Allow students to interpret the rules on their own and act based on the condition. 
 
+#####Questions
+1. 
