@@ -57,7 +57,8 @@ function forward () {
   + The first parameter determines wheel rotation. 1 = one wheel rotation.
   + Second parameter determines speed. Speed can be any number between 1 - 100.
   + Third parameter determines direction. 0 is straight. A number between -100 and -1 controls severity of left turn. A number between 1 and 100 controls severity of right turn. 
-6. The forward function in the starter code moves one wheel rotation, at a speed of 40, in the straight direction. 
+> The forward function in the starter code moves one wheel rotation, at a speed of 40, in the straight direction.  
+
 7. Have students walk through back function and explain the steer.rotations parameters. 
 8. Create left and right functions with students and emphasize importance of correct syntax.
 9. Any changes must be saved by pushing the ```Run Code``` button. 
