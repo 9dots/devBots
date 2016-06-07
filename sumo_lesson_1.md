@@ -92,12 +92,12 @@ function main (input) {
 ####Engage
 1. Allow students time to adjust their left and right functions.
 2. Have students sumo wrestle utilizing the functions they have created.
-3. Ask:
-  + How can we further simplify your code?
-  + What would make sumo wrestling easier?
-4. We can create umbrella functions that complete multiple steps of the sumo wrestling code. We can also utilize sensors to detect other robots and the colored tape of the sumo mat.
-5. At the end of the day, students should save gist and name their sumo code.  
+3. At the end of the day, students should save gist and name their sumo code.  
 
+####Questions
+1. How can we further simplify your code?
+2. What would make sumo wrestling easier?
+  + We can create umbrella functions that complete multiple steps of the sumo wrestling code. We can also utilize sensors to detect other robots and the colored tape of the sumo mat.
 
 Ultrasonic sensor.
  See: attack, else: turn.
