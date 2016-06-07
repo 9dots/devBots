@@ -4,7 +4,7 @@
 #####Deep Dive Into Functions
 
 **Explore**
-Students will create functions to complete a maze. The goal is to write as few lines of code as possible. 
+Students will create functions to complete a maze. The goal is to complete in the maze in the fewest lines of code. 
 
 (Create staircase maze)
 
@@ -16,8 +16,9 @@ Students will create functions to complete a maze. The goal is to write as few l
 
 
 **Explain**
-1. Students can create functions for their repeating steps. This allows several steps to be completed within one function call.
-2. 
+1. Students can create functions for their repeating steps. 
+2. A function is a reusable set of instructions so this will help students shorten their code.
+3. 
 
  
 Students should save code as 'defining functions'. (This code should be separate from their sumo code). 
