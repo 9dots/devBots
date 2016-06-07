@@ -26,4 +26,7 @@ if (shirtColor === 'red') {
 3. Allow students to interpret the rules on their own and act based on the condition. 
 
 #####Questions
-1. 
+1. Why were the conditionals (if/else if) important for this exercise?
+2. What special syntax did you notice in the code?
+3. Why do you think there are three equal signs?
+4. How do you think you can use conditionals to program your sumo robot?
