@@ -66,7 +66,7 @@ function forward () {
 To take a deep dive into functions, see 'defining functions' lesson. 
 
 #####If/else Conditionals
-Students will use if/else if conditionals in their code to program specific instructions.
+Students will use if/else conditionals in their code to program specific instructions.
 
 1. The main function contains a series of if/else if statements to check user input and calls a function based on the input.
 ```js
@@ -80,8 +80,9 @@ function main (input) {
 ```
 2. The main function sets up the interactive page on the right side of the screen. Students may call functions in the ev3 input box to move robot.
 3. The main function accepts one parameter: an input from the user. 
-4. The if statement first checks to see if the input is 'forward'. If that is true, the ```forward()``` function is called.
-5. If that statement does not apply, the function continues to check if 
+4. If the input is equal to 'forward', the ```forward()``` function is called.
+5. Else, the function continues to check if the input is equal to 'back'. If that condition is true, the ```back()``` function is called. 
+6. Work with students to add 'else if' statements to the main function and check input for 'left' and 'right'. If true, the respective functions should be called. 
 
 
 
