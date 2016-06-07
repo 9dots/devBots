@@ -1,10 +1,10 @@
 # If/else Conditionals
 
 ####Learning Goals
-Students learn to read and write conditionals.
+Students learn to read and write if/else conditionals.
 
 ####Explain
-Students will use if/else if conditionals in their code to program specific instructions.
+Students will use if/else conditionals in their code to program specific instructions.
   
 Begin by playing a game where students react to different situations based on instructions. For example:
 
@@ -31,3 +31,4 @@ if (shirtColor === 'red') {
 2. What special syntax did you notice in the code?
 3. Why do you think there are three equal signs?
 4. How do you think you can use conditionals to program your sumo robot?
+
