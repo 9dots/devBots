@@ -2,7 +2,7 @@
 
 ####Learning Goals
 
-#####If/else Conditionals
+####Explain
 Students will use if/else if conditionals in their code to program specific instructions.
   
 Begin by playing a game where students react to different situations based on instructions. For example:
