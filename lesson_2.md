@@ -26,10 +26,8 @@ Students will create functions to complete a maze. The goal is to complete in th
 
 **Engage**
 1. Students will create new functions to shorten their code to complete the maze.
-2. Tally how many commands each student had to entered 
-
- 
-Students should save code as 'defining functions'. (This code should be separate from their sumo code). 
+2. Tally number of commands each student had to enter.
+3. Students should save code as 'defining functions'. (This code should be separate from their sumo code). 
  
  
  
