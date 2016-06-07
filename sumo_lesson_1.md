@@ -89,9 +89,8 @@ function main (input) {
 
 ####Engage
 1. Allow students time to adjust their left and right functions.
-2. Add else if to main function to accept input for left and right functions.
-3. Have students complete a simple maze using the new functions. 
-4. At the end of the day, students should save gist and name their sumo code.  
+2. Have students sumo wrestle utilizing the functions they have created.
+3. At the end of the day, students should save gist and name their sumo code.  
 
 
 
