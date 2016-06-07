@@ -3,7 +3,7 @@
 ####Learning Goals
 Students learn to read and write if/else conditionals.
 
-####Explain
+####Explore
 Students will use if/else conditionals in their code to program specific instructions.
   
 Begin by playing a game where students react to different situations based on instructions. For example:
@@ -32,3 +32,12 @@ if (shirtColor === 'red') {
 3. Why do you think there are three equal signs?
 4. How do you think you can use conditionals to program your sumo robot?
 
+####Explain
+1. If/else conditionals are used to give instructions to a group that meets a specific condition. 
+2. In our game, we only had instructions for students that were wearing a red shirt or blue shirt. 
+3. To write a conditional, we begin with the key word ```if```. 
+4. In parentheses, we write our condition.
+  + What must be true or what must happen first?
+5. Within curly braces, we write the result of that condition. If the shirt color is equal to red, what must happen after?
+6. All other conditions follow the same format with an 'else if' before the condition. 
+  7. To catch all other groups that do not meet a condition, we can use the key word ```else```.
