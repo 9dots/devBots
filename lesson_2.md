@@ -9,7 +9,8 @@ Students will create functions to complete a maze. The goal is to complete in th
 (Create staircase maze)
 
 1. Have students complete maze with their robots.
-2. Ask:
+
+#####Questions
   + How many lines of code have you written?
   + Were there any steps that got repeated?
   + What can we do to lessen the number of lines of code?
