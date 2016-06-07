@@ -68,9 +68,20 @@ To take a deep dive into functions, see 'defining functions' lesson.
 #####If/else Conditionals
 Students will use if/else if conditionals in their code to program specific instructions.
 
-
-  
-Play a game where students react to different situations based on instructions. For example:
+1. The main function contains a series of if/else if statements to check user input and calls a function based on the input.
+```js
+function main (input) {
+  if (input === 'forward') {
+    forward()
+  } else if (input === 'back') {
+    back()
+  }
+}
+```
+2. The main function sets up the interactive page on the right side of the screen. Students may call functions in the ev3 input box to move robot.
+3. The main function accepts one parameter: an input from the user. 
+4. The if statement first checks to see if the input is 'forward'. If that is true, the ```forward()``` function is called.
+5. If that statement does not apply, the function continues to check if 
 
 
 
