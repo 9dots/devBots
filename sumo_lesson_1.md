@@ -61,6 +61,9 @@ function forward () {
 7. Walk through back function and ask students to explain the steer.rotations parameters. 
 8. Allow students to connect their robots and call the forward and back function to move their robot.
 9. Any changes must be saved by pushing the ```Run Code``` button. 
+10. At the end of the day, students should save gist and name their sumo code.  
+
+To take a deep dive into functions, see 'defining functions' lesson. 
 
 #####If/else Conditionals
 Students will use if/else if conditionals in their code to program specific instructions.
