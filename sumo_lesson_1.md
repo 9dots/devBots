@@ -42,7 +42,7 @@ function back () {
 }
 ```
 
-1. ```var steer = move()``` sets up the robot steering command.
+1. The first few lines of code set up ev3.sh.
 2. The main function sets up the interactive page on the right side of the screen. Students may call functions in the ev3 input box to move robot.
 3. A function is a reusable set of instructions. The functions in ev3.sh are written like this:
 ```js
