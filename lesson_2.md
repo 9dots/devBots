@@ -18,7 +18,14 @@ Students will create functions to complete a maze. The goal is to complete in th
 **Explain**
 1. Students can create functions for their repeating steps. 
 2. A function is a reusable set of instructions so this will help students shorten their code.
-3. 
+3. To define a new function, begin with the key word ```function```. 
+4. Next, name the function.
+5. A function name must always be followed by open and close parentheses. 
+6. Then, the function requires open and close curly braces. The instructions for the function will be written between the two curly braces.
+  + Once the open curly brace has been written, immediately press enter to create the closing curly brace. This will also leave a line between the two curly braces to write the instructions. 
+
+**Engage**
+
 
  
 Students should save code as 'defining functions'. (This code should be separate from their sumo code). 
