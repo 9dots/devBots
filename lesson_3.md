@@ -35,7 +35,7 @@ if (shirtColor === 'red') {
 ####Explain
 1. If/else conditionals are used to give instructions to a group that meets a specific condition. 
 2. In our game, only students that met the rule of wearing a red shirt or blue shirt received different instructions. 
-3. Write an if/else statement for the main function with the class.
+3. Write an if/else statement for a game using shoeColor as a condition.
 4. To write a conditional, we begin with the key word ```if```.  
 ```js
 if
@@ -43,25 +43,34 @@ if
 5. In parentheses, we write our condition.
   + What must be true or what must happen first?
 ```js
-if (input === 'forward')
+if (shoeColor === 'white')
 ```
 6. Within curly braces, we write the result of that condition. If the input is equal to forward, what must happen after?
-  + We will want to call the forward function so the robot can perform that task.
+  + Choose a fun action for students to do!
   + Note the placement of the curly braces. Does this syntax look familiar?
 ```js
-if (input === 'forward') {
-  forward()
+if (shoeColor === 'white') {
+  meow()
 }
 ```
 7. To continue checking for conditions, use the key words ```else if``` and write the condition and instructions. 
 ```js
-if (input === 'forward') {
-  forward()
-} else if (input === 'back') {
-  back()
+if (shoeColor === 'white') {
+  meow()
+} else if (input === 'black') {
+  bark()
 }
 ```
 8. To catch all others that do not meet a condition, we can use the key word ```else``` and give that group an instruction as well.
+```js
+if (shoeColor === 'white') {
+  meow()
+} else if (input === 'black') {
+  bark()
+} else {
+  ribbit()
+}
+```
 
 
 
