@@ -28,7 +28,7 @@ if (shirtColor === 'red') {
 
 ####Questions
 1. Why were the conditionals (if/else) important for this exercise?
-2. What special syntax did you notice in the code?
+2. What special syntax did you notice in the code? Does it look familiar to other syntax you've used?
 3. Why do you think there are three equal signs?
 4. How do you think you can use conditionals to program your sumo robot?
 
@@ -47,7 +47,6 @@ if (shoeColor === 'white')
 ```
 6. Within curly braces, we write the result of that condition. If the input is equal to forward, what must happen after?
   + Choose a fun action for students to do!
-  + Note the placement of the curly braces. Does this syntax look familiar?
 ```js
 if (shoeColor === 'white') {
   meow()
