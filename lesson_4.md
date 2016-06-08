@@ -1,5 +1,3 @@
-# lesson 4
+# intro to sensors
 
 ####Learning Goals
- Introduce Code Wars
- Use code wars for if and else station
