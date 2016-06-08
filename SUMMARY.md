@@ -9,7 +9,7 @@
    * [ultrasonic sensor](lesson_4.md)
    * [color sensor](color_sensor.md)
    * [working on code](working_on_code.md)
-   * working on build
+   * [working on build](working_on_build.md)
    * [sumo rules](sumo_rules.md)
 * Soccer
    * [lesson 1](lesson_1.md)
