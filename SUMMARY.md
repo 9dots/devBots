@@ -6,7 +6,7 @@
    * [defining functions](lesson_2.md)
    * [if/else conditionals](lesson_3.md)
    * ultrasonic sensor
-   * color sensor
+   * [color sensor](color_sensor.md)
    * [sumo rules](sumo_rules.md)
 * Soccer
    * [lesson 1](lesson_1.md)
