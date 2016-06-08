@@ -6,8 +6,6 @@ By the end of the lesson, students will be able to
 * identify ultrasonic sensor
 * write code utilizing sensors
 
-####Ultrasonic Sensor
-
 ####Engage
 
 Ask students: How do we keep from walking into tables and walls?
