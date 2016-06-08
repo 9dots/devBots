@@ -1,2 +1,0 @@
-# ultrasonic sensor
-
