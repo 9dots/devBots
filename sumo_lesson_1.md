@@ -87,7 +87,7 @@ function main (input) {
 6. Work with students to add 'else if' statements to the main function and check input for 'left' and 'right'. If true, the respective functions should be called. 
 7. Emphasize importance of correct syntax.
 
-
+To take a deep dive into conditionals, see 'if/else conditionals' lesson.
 
 ####Engage
 1. Allow students time to adjust their left and right functions.
