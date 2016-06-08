@@ -1,5 +1,6 @@
 # intro to sensors
 
-####Learning Goals
+####Overview
 Students will learn to incorporate sensors onto their sumo robots. 
 
+####Learning Goals
