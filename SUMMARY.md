@@ -5,7 +5,8 @@
    * [intro to ev3.sh](sumo_lesson_1.md)
    * [defining functions](lesson_2.md)
    * [if/else conditionals](lesson_3.md)
-   * [ultrasonic sensors](lesson_4.md)
+   * [ultrasonic sensor](lesson_4.md
+   * color sensor
    * [sumo rules](sumo_rules.md)
 * Soccer
    * [lesson 1](lesson_1.md)
