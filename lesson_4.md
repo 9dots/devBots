@@ -10,3 +10,11 @@ By the end of the lesson, students will be able to
 * identify color sensor
 * write code utilizing sensors
 
+####Introduce Concept
+
+#####Ultrasonic Sensor
+
+
+#####Color Sensor
+
+
