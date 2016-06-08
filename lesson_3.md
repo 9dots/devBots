@@ -21,7 +21,7 @@ if (shirtColor === 'red') {
 } else if (shirtColor === 'blue') {
   tapNose()
 } else {
-  cheeseSmile()
+  smile()
 }
 ```
 3. Allow students to interpret the rules on their own and act based on the condition. 
@@ -39,5 +39,5 @@ if (shirtColor === 'red') {
 4. In parentheses, we write our condition.
   + What must be true or what must happen first?
 5. Within curly braces, we write the result of that condition. If the shirt color is equal to red, what must happen after?
-6. All other conditions follow the same format with an 'else if' before the condition. 
-  7. To catch all other groups that do not meet a condition, we can use the key word ```else```.
+6. To continue checking for conditions, use the key words ```else if``` and write the condition and instructions. 
+7. To catch all others that do not meet a condition, we can use the key word ```else``` and give that group an instruction as well.
