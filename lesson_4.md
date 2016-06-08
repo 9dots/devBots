@@ -14,7 +14,6 @@ By the end of the lesson, students will be able to
 
 #####Ultrasonic Sensor
 
-**Explain**
 Ask students: How do we keep from walking into tables and walls?
 
 1. We have eyes to see where we're going and what's in front of us, but robots do not.
@@ -36,7 +35,16 @@ if (devices.sonic(1) <= 24) {
   + In this case, students may use a steer.forever in place of steer.rotations to have the robot charge forward as much as necessary to beat its opponent. 
 8. If the robot is not locating another object and charging forward, what else should it do?
   + Robot can spin until it sees another object.
-9. Leave time for students to add ultrasonic sensor onto robot. Students should think about best placement. 
+9. As a group, add an else statement.
+```js
+if (devices.sonic(1) <= 240) {
+  steer.forever(100, 0)
+} else if (color === 5) {
+  steer.rotations(-1, 100, 0)
+} else {
+  steer.forever(30, 70)
+}
+```
 
 
 
