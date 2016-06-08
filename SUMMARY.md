@@ -8,7 +8,7 @@
    * [building your robot](building_your_robot.md)
    * [ultrasonic sensor](lesson_4.md)
    * [color sensor](color_sensor.md)
-   * working on code
+   * [working on code](working_on_code.md)
    * working on build
    * [sumo rules](sumo_rules.md)
 * Soccer
