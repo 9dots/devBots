@@ -34,7 +34,7 @@ if (shirtColor === 'red') {
 
 ####Explain
 1. If/else conditionals are used to give instructions to a group that meets a specific condition. 
-2. In our game, we only had instructions for students that were wearing a red shirt or blue shirt. 
+2. In our game, only students that met the rule of wearing a red shirt or blue shirt received different instructions. 
 3. To write a conditional, we begin with the key word ```if```. 
 4. In parentheses, we write our condition.
   + What must be true or what must happen first?
