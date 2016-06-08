@@ -8,4 +8,5 @@ By the end of the lesson, students will be able to
 * write conditionals
 * identify ultrasonic sensor
 * identify color sensor
-* write sensors into code
+* write code utilizing sensors
+
