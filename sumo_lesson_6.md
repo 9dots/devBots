@@ -5,7 +5,7 @@ By the end of the lesson, students will be able to
 * read and write conditionals
 * identify color sensor
 
-####Engage
+####Explore
 Ask students: How can we help the robot from constantly falling off the sumo mat? What type of sensor can we utilize?
   + Color sensor to help robot detect color of tape on the mat.
 
