@@ -2,9 +2,8 @@
 
 ####Learning Goals
 By the end of the lesson, students will be able to
-* write conditionals
+* read and write conditionals
 * identify color sensor
-* write code utilizing sensors
 
 ####Engage
 
