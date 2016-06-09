@@ -7,7 +7,7 @@
    * [if/else conditionals](sumo_lesson_3.md)
    * [building your robot](sumo_lesson_4.md)
    * [ultrasonic sensor](sumo_lesson_5.md)
-   * [color sensor](color_sensor.md)
+   * [color sensor](sumo_lesson_6.md)
    * [debugging](working_on_code.md)
    * [sumo rules](sumo_rules.md)
 * Soccer
