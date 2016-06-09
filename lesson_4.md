@@ -44,7 +44,7 @@ if (devices.sonic(1) <= 240) {
 ```
 
 8. If a sensor is not working, students should check their code for the correct port number, and correct usage of equal signs.
-9. Save gist.
+
 
 ####Engage
 1. Students will program their robot to run away from a monster. 
