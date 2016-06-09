@@ -6,23 +6,25 @@ By the end of the lesson, students will be able to
 * identify color sensor
 
 ####Engage
-
-Ask students: What type of sensor would help the robot stay within the lines of the sumo mat?
-  + Color sensor to help robot detect color of tape on the ground.
+Ask students: How can we help the robot from constantly falling off the sumo mat? What type of sensor can we utilize?
+  + Color sensor to help robot detect color of tape on the mat.
 
 ####Explain
 Have students open sumo code.
-1. An ultrasonic sensor acts as the eyes of the robot, and can tell if there is an object in front. 
+
+1. A color sensor is used to detect what colors are placed in front of it. 
 2. To begin, we need to set a variable named devices to the ```read()``` function. This allows us to simply use the word devices when we need to call upon a sensor. 
 ```js
 var devices = read()
 ```
+
 3. The ultrasonic sensor will be used within an if/else condition.
 ```js
 if (devices.sonic(1) <= 24) {
   steer.forever(100, 0)
 }
 ```
+
 4. The sensor can be called using the command ```devices.sonic()```.
   + Within the parentheses, note the port number that the sensor is plugged into.
 5. If the ultrasonic sensor sees an object less than 24 inches away, it should charge toward it.
@@ -39,6 +41,7 @@ if (devices.sonic(1) <= 240) {
   steer.forever(30, 70)
 }
 ```
+
 8. If a sensor is not working, students should check their code for the correct port number, and correct usage of equal signs.
 9. Save gist.
 
