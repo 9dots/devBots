@@ -5,7 +5,7 @@ By the end of the lesson, students will be able to
 * read and write conditionals
 * identify ultrasonic sensor
 
-####Engage
+####Explore
 Ask students: How do we keep from walking into tables and walls?
   + We have eyes to see where we're going and what's in front of us, but robots do not.
   + We can attach sensors to robots to give them more abilities.
