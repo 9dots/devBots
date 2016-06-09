@@ -25,3 +25,6 @@ Students will use the design thinking method to creatively design their sumo rob
  
  ####Engage
  Have students work in pairs to complete their [design thinking worksheet](https://docs.google.com/document/d/1336dIyKm9nQvGVj94WM3yc7xBcOoukOH9nyjMz4eTd4/edit?usp=sharing). 
+ 
+ ####Justify
+ Ask students: How did the design thinking method help you build your robot? What are the various attachments on your robot? What purpose do they serve?
