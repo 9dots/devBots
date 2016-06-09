@@ -12,8 +12,20 @@ Ask students: How can we help the robot from constantly falling off the sumo mat
 ####Explain
 Have students open sumo code.
 
-1. A color sensor is used to detect what colors are placed in front of it. 
-2. To begin, we need to set a variable named devices to the ```read()``` function. This allows us to simply use the word devices when we need to call upon a sensor. 
+1. A color sensor is used to detect what colors are in front of it. 
+2. Each color has a value assigned to it.
+| Value | Color |
+| --- | --- |
+| 0 | none |
+| 1 | black |
+| 2 | blue |
+| 3 | green |
+| 4 | yellow |
+| 5 | red |
+| 6 | white |
+| 7 | brown |
+
+3. To begin, we need to set a variable named devices to the ```read()``` function. This allows us to simply use the word devices when we need to call upon a sensor. 
 ```js
 var devices = read()
 ```
