@@ -15,7 +15,7 @@ Have students open sumo code.
 1. A color sensor is used to detect what colors are in front of it. 
 2. Each color has a value assigned to it.  
 | Value     | Color     |  
-| --------- | --------- |  
+| :-------: | --------- |  
 | 0         | none      |  
 | 1         | black     |  
 | 2         | blue      |  
