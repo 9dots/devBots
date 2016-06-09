@@ -13,7 +13,7 @@ Ask students: How can we help the robot from constantly falling off the sumo mat
 Have students open sumo code.
 
 1. A color sensor is used to detect what colors are in front of it. 
-2. Each color has a value assigned to it.
+2. Each color has a value assigned to it.  
 | Value     | Color     |  
 | --------- | --------- |  
 | 0         | none      |  
