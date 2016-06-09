@@ -25,21 +25,21 @@ Have students open sumo code.
 | 6         | white     |  
 | 7         | brown     |  
 
-3. To begin, we need to set a variable named devices to the ```read()``` function. This allows us to simply use the word devices when we need to call upon a sensor. 
+3. To begin, we need to set a variable named devices to equal the ```read()``` function. This allows us to simply use the word devices when we need to call upon a sensor. 
 ```js
 var devices = read()
 ```
 
-3. The ultrasonic sensor will be used within an if/else condition.
+3. The color sensor will be used within an if/else condition.
 ```js
-if (devices.sonic(1) <= 24) {
-  steer.forever(100, 0)
+if (devices.color(2) === 5) {
+  steer.rotations(1, 40, 0)
 }
 ```
 
-4. The sensor can be called using the command ```devices.sonic()```.
+4. The sensor is called using the command ```devices.color(2)```.
   + Within the parentheses, note the port number that the sensor is plugged into.
-5. If the ultrasonic sensor sees an object less than 24 inches away, it should charge toward it.
+5. If the color sensor detects a value of 5, which is equivalent to the color red, it should move forward one wheel rotation at 40 speed.
   + In this case, students may use a steer.forever in place of steer.rotations to have the robot charge forward as much as necessary to beat its opponent. 
 6. If the robot is not locating another object and charging forward, what else should it do?
   + Robot can spin until it sees another object.
