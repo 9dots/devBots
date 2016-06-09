@@ -72,9 +72,10 @@ if (shoeColor === 'white') {
 ```
 
 ####Engage
+As a group, add the new left and right functions to the main function by using the if/else conditionals.
+
 
 ####Justify
-
-
+Have students walk through sumo code with you and explain each conditional, function, and placement of syntax. 
 
 
