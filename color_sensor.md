@@ -30,22 +30,24 @@ Have students open sumo code.
 var devices = read()
 ```
 
-3. The color sensor will be used within an if/else condition.
+4. The color sensor will be used within an if/else condition.
 ```js
 if (devices.color(2) === 5) {
   steer.rotations(1, 40, 0)
 }
 ```
 
-4. The sensor is called using the command ```devices.color(2)```.
+5. The sensor is called using the command ```devices.color(2)```.
   + Within the parentheses, note the port number that the sensor is plugged into.
-5. If the color sensor detects a value equal to 5 (red), it can be given a command to react.
+6. If the color sensor detects a value equal to 5 (red), it can be given a command to react.
   + In the sample, the robot will move forward one wheel rotation at a speed of 40. 
-7. As a group, decide where to include the color sensor condition within the attack function.
+7. Color sensor uses three equal signs to check for a value. One equal sign sets a value (think of variables).
+8. As a group, decide where to include the color sensor condition within the attack function.
+  + Should the robot detect the color sensor first, then use the ultrasonic sensor to find its opponent? Or should the robot find its opponent, and meanwhile check for the color sensor?
 ```js
 if (devices.sonic(1) <= 240) {
   steer.forever(100, 0)
-} else if (color === 5) {
+} else if (devices.color === 5) {
   steer.rotations(-1, 100, 0)
 } else {
   steer.forever(30, 70)
@@ -60,5 +62,5 @@ if (devices.sonic(1) <= 240) {
 2. Specifications: If a monster is less than 24 inches away, robot should back away. Else if it senses the red tape, robot should move forward. Else, robot should spin in circle until it detects an object.  
 
 ####Justify
-Ask students to walk you through their full attack function and explain each the importance of each value and condition.
+Have students walk you through their code and explain the importance of each value and condition.
 
