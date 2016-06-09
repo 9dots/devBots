@@ -8,7 +8,7 @@ By the end of the lesson, students will be able to
 ####Engage
 Ask students: How do we keep from walking into tables and walls?
   + We have eyes to see where we're going and what's in front of us, but robots do not.
-  + However, we can attach sensors to robots to give them more abilities.
+  + We can attach sensors to robots to give them more abilities.
 
 ####Explain
 Have students open sumo code.
