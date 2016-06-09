@@ -26,7 +26,7 @@ if (devices.sonic(1) <= 24) {
 }
 ```
 
-4. The sensor can be called using the command ```devices.sonic()```.
+4. The sensor is called using the command ```devices.sonic()```.
   + Within the parentheses, note the port number that the sensor is plugged into.
 5. If the ultrasonic sensor sees an object less than 24 inches away, it should charge toward it.
   + In this case, students may use a steer.forever in place of steer.rotations to have the robot charge forward as much as necessary to beat its opponent. 
