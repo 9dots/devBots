@@ -19,6 +19,7 @@ Have students open sumo code.
 | -- | -- |
 | 0:2 | 1:2 |
 
+
 | Value     | Color     |  
 | ------- | --------- |  
 | 0         | none      |  
