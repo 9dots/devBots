@@ -39,11 +39,9 @@ if (devices.color(2) === 5) {
 
 4. The sensor is called using the command ```devices.color(2)```.
   + Within the parentheses, note the port number that the sensor is plugged into.
-5. If the color sensor detects a value of 5, which is equivalent to the color red, it should move forward one wheel rotation at 40 speed.
-  + In this case, students may use a steer.forever in place of steer.rotations to have the robot charge forward as much as necessary to beat its opponent. 
-6. If the robot is not locating another object and charging forward, what else should it do?
-  + Robot can spin until it sees another object.
-7. As a group, add an else statement.
+5. If the color sensor detects a value equal to 5 (red), it can be given a command to react.
+  + In the sample, the robot will move forward one wheel rotation at a speed of 40. 
+7. As a group, decide where to include the color sensor condition within the attack function.
 ```js
 if (devices.sonic(1) <= 240) {
   steer.forever(100, 0)
@@ -55,12 +53,12 @@ if (devices.sonic(1) <= 240) {
 ```
 
 8. If a sensor is not working, students should check their code for the correct port number, and correct usage of equal signs.
-9. Save gist.
+
 
 ####Engage
-1. Students will program their robot to run away from a monster. 
-2. Specifications: If a monster is less than 24 inches away, robot should back away. Else, robot should spin in circle until it detects an object.  
+1. Students will program their robot to run away from a monster, but stay within the perimeter of the sumo mat. 
+2. Specifications: If a monster is less than 24 inches away, robot should back away. Else if it senses the red tape, robot should move forward. Else, robot should spin in circle until it detects an object.  
 
 ####Justify
-Ask students to walk you through their ultrasonic code and explain each portion of the syntax. 
+Ask students to walk you through their full attack function and explain each the importance of each value and condition.
 
