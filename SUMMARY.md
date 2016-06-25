@@ -13,7 +13,6 @@
    * [sumo rules](sumo_rules.md)
    * [concepts](concepts.md)
        * [defining functions](sumo_lesson_2.md)
-       * [functions](functions.md)
 * Soccer
    * [lesson 1](lesson_1.md)
 
