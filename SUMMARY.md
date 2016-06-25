@@ -13,6 +13,7 @@
    * [debugging](sumo_lesson_7.md)
    * [sumo rules](sumo_rules.md)
    * [concepts](concepts.md)
+       * functions
 * Soccer
    * [lesson 1](lesson_1.md)
 
