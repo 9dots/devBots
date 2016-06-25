@@ -11,7 +11,7 @@
    * [debugging](sumo_lesson_7.md)
    * [sumo rules](sumo_rules.md)
 * [Maze](maze.md)
-   * defining functions
+   * [defining functions](defining_functions.md)
 * Soccer
    * [lesson 1](lesson_1.md)
 
