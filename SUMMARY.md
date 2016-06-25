@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Maze](maze.md)
+* [1. Maze](maze.md)
    * [defining functions](defining_functions.md)
 * [Sumo](sumo.md)
    * [intro to ev3.sh](sumo_lesson_1.md)
