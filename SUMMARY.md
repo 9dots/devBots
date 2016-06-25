@@ -1,6 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
+* [Maze](maze.md)
+   * [defining functions](defining_functions.md)
 * [Sumo](sumo.md)
    * [intro to ev3.sh](sumo_lesson_1.md)
    * [defining functions](sumo_lesson_2.md)
@@ -10,8 +12,6 @@
    * [color sensor](sumo_lesson_6.md)
    * [debugging](sumo_lesson_7.md)
    * [sumo rules](sumo_rules.md)
-* [Maze](maze.md)
-   * [defining functions](defining_functions.md)
 * Soccer
    * [lesson 1](lesson_1.md)
 
