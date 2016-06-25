@@ -7,7 +7,6 @@ Students will learn to define new functions to reuse a series of instructions.
 Students will create functions to complete a maze. The goal is to complete the maze in the fewest lines of code. 
 
 (Create staircase maze)
-
 1. Have students complete maze with their robots using only the forward, back, left, and right functions.
 
 ####Questions
