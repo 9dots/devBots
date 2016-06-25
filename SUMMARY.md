@@ -4,7 +4,7 @@
 * [1. Maze](maze.md)
    * [defining functions](defining_functions.md)
 * [2. Sumo](sumo.md)
-   * [intro to ev3.sh](sumo_lesson_1.md)
+   * [1.1 intro to ev3.sh](sumo_lesson_1.md)
    * [defining functions](sumo_lesson_2.md)
    * [if/else conditionals](sumo_lesson_3.md)
    * [building your robot](sumo_lesson_4.md)
