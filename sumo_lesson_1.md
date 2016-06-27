@@ -104,7 +104,3 @@ Ultrasonic sensor.
  
  Color sensor.
  See: move forward or backward.
-
-
-lesson 6 - working on your code worksheet
-lesson 7 - working on your build worksheet
