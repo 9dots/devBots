@@ -5,9 +5,7 @@ By the end of the lesson, students will be able to
 * read and write functions
 
 ####Explore
-We have created many functions for the little steps our robots need to take in order to complete the mazes. How can we sequence the functions to have robot move around the maze below?
-
-
+We have created many functions for the little steps our robots need to take in order to complete the mazes. How can we sequence the functions to have robot move around the rectangle maze?
 
 ####Explain
 Have students open maze code.
