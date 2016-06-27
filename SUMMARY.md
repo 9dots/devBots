@@ -5,7 +5,7 @@
    * [defining functions](defining_functions.md)
    * [1.1 intro to maze](intro_to_maze.md)
 * [2. Sumo](sumo.md)
-   * [1.1 intro to ev3.sh](sumo_lesson_1.md)
+   * [2.1 intro to ev3.sh](sumo_lesson_1.md)
    * [1. 2 building your robot](sumo_lesson_4.md)
    * [1. 3 ultrasonic sensor](sumo_lesson_5.md)
    * [1.4 color sensor](sumo_lesson_6.md)
