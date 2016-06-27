@@ -8,7 +8,7 @@
    * [1.4 concepts](14_concepts.md)
        * [maze defining functions](maze_defining_functions.md)
        * [maze if/else conditionals](maze_ifelse_conditionals.md)
-   * maze rules
+   * [maze rules](maze_rules.md)
 * [2. Sumo](sumo.md)
    * [2.1 intro to ev3.sh](sumo_lesson_1.md)
    * [2.2 building your robot](sumo_lesson_4.md)
