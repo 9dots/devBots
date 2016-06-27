@@ -62,6 +62,20 @@ function forward () {
 
 7. Have students walk through back function and explain the steer.rotations parameters.
 8. Create left and right functions with students and emphasize importance of correct syntax.
+```js
+function right() {
+  out('turning right')
+  steer.rotations(1, 40, 50)
+  out('done')
+}
+
+function left() {
+  out('turning left')
+  steer.rotations(-1, 40, 50)
+  out('done')
+}
+```
+
 9. Any changes must be saved by pushing the ```Run Code``` button. 
 
 
