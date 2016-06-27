@@ -1,7 +1,7 @@
-# Intro to ev3.sh
+# Intro to maze
 
 ####Overview
-In this lesson, students will use ev3.sh to program their Lego EV3 robots.
+In this lesson, students will use ev3.sh to program their Lego EV3 robots to complete a series of mazes.
 
 ####Learning Goals
 By the end of the lesson, students will be able to
@@ -105,6 +105,3 @@ Ultrasonic sensor.
  Color sensor.
  See: move forward or backward.
 
-
-lesson 6 - working on your code worksheet
-lesson 7 - working on your build worksheet
