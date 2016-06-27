@@ -9,7 +9,7 @@
    * [1. 3 ultrasonic sensor](sumo_lesson_5.md)
    * [1.4 color sensor](sumo_lesson_6.md)
    * [1.5 debugging](sumo_lesson_7.md)
-   * [sumo rules](sumo_rules.md)
+   * [1.6 sumo rules](sumo_rules.md)
    * [concepts](concepts.md)
        * [defining functions](sumo_lesson_2.md)
        * [if/else conditionals](sumo_lesson_3.md)
