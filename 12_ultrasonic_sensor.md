@@ -35,24 +35,41 @@ function turnRight() {
 }
 ```
 
-4. The sensor is called using the command ```devices.sonic()```.
+5. The sensor is called using the command ```devices.sonic()```.
   + Within the parentheses, note the port number that the sensor is plugged into.
-5. If the ultrasonic sensor sees an object less than 5 inches away, it should stop.
+6. If the ultrasonic sensor sees an object less than 5 inches away, it should stop.
   + In this case, students may use a steer.stop in place of steer.rotations to have the robot fully stop. 
-6. If the robot is stopped in front of a wall, what can it do next?
-  + Robot can turn left or right.
-7. As a group, add an else statement.
+7. If the robot is stopped in front of a wall, what can it do next?
+  + Robot can turn right.
+8. As a group, add an else statement.
 ```js
-if (devices.sonic(1) <= 240) {
-  steer.forever(100, 0)
-} else if (color === 5) {
-  steer.rotations(-1, 100, 0)
-} else {
-  steer.forever(30, 70)
+
+function turnRight (x = 50, y = 1, z = 1) {
+  forwardUntilDistance(x)
+  right(y)
+  forward(z)
 }
+
+function forwardUntilDistance (x) {
+  while (true) {
+    devices = read()
+    if (devices.sonic(1) <= x) {
+      steer.stop()
+      break
+    } else {
+      steer.forever(40, 0)
+    }
+  }
+}
+
+
+
+
+steer.rotations(1, 50, 50)
+
 ```
 
-8. If a sensor is not working, students should check their code for the correct port number, and correct usage of equal signs.
+9. If a sensor is not working, students should check their code for the correct port number, and correct usage of equal signs.
 
 
 ####Engage
