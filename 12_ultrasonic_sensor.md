@@ -19,18 +19,23 @@ Have students open maze code.
 var devices = read()
 ```
 
-3. Now let's create a function to have the robot move forward until it sees a wall, and then turn right.
+3. Now let's create a function to have the robot move forward until it sees a wall.
 ```js
-function turnRight() {
-
+function forwardUntilWall() {
+  
 }
 ```
 
-4. The ultrasonic sensor will be used within an if/else condition.
+4. The ultrasonic sensor will be used within a while loop and if/else statement.
 ```js
-function turnRight() {
-  if (devices.sonic(1) <= 5) {
-    steer.stop()
+function forwardUntilWall () {
+  while (true) {
+    if (devices.sonic(1) <= 50) {
+      steer.stop()
+      break
+    } else {
+      steer.forever(40, 0)
+    }
   }
 }
 ```
@@ -39,9 +44,7 @@ function turnRight() {
   + Within the parentheses, note the port number that the sensor is plugged into.
 6. If the ultrasonic sensor sees an object less than 5 inches away, it should stop.
   + In this case, students may use a steer.stop in place of steer.rotations to have the robot fully stop. 
-7. If the robot is stopped in front of a wall, what can it do next?
-  + Robot can turn right.
-8. As a group, add an else statement.
+7. If the robot is stopped in front of a wall, it will break out of the loop.
 ```js
 
 function turnRight (x = 50, y = 1, z = 1) {
@@ -50,10 +53,10 @@ function turnRight (x = 50, y = 1, z = 1) {
   forward(z)
 }
 
-function forwardUntilDistance (x) {
+function forwardUntilWall () {
   while (true) {
     devices = read()
-    if (devices.sonic(1) <= x) {
+    if (devices.sonic(1) <= 50) {
       steer.stop()
       break
     } else {
@@ -73,8 +76,7 @@ steer.rotations(1, 50, 50)
 
 
 ####Engage
-1. Students will program their robot to run away from a monster. 
-2. Specifications: If a monster is less than 24 inches away, robot should back away. Else, robot should spin in circle until it detects an object.  
+1. Students will program their robot move forward until it sees a wall 5 inches away.
 
 ####Justify
 Ask students to walk you through their ultrasonic code and explain each portion of the syntax. 
