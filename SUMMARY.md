@@ -7,6 +7,7 @@
    * [1.4 concepts](14_concepts.md)
        * [defining functions](defining_functions.md)
        * maze defining functions
+   * 1.3 reusable functions
 * [2. Sumo](sumo.md)
    * [2.1 intro to ev3.sh](sumo_lesson_1.md)
    * [2.2 building your robot](sumo_lesson_4.md)
