@@ -104,18 +104,13 @@ function main (input) {
 To take a deep dive into conditionals, see 'if/else conditionals' lesson.
 
 ####Engage
-1. Allow students time to adjust their left and right functions.
-2. Have students sumo wrestle utilizing the functions they have created.
+1. Allow students time to create and adjust their left and right functions.
+2. Have students complete a simple maze utilizing the functions they have created.
 3. At the end of the day, students should save gist and name their sumo code.  
 
 ####Questions
 1. How can we further simplify your code?
-2. What would make sumo wrestling easier?
-  + We can create umbrella functions that complete multiple steps of the sumo wrestling code. We can also utilize sensors to detect other robots and the colored tape of the sumo mat.
+2. What would make maze solving easier?
+  + We can create umbrella functions that complete multiple steps of the maze. We can also utilize sensors to detect walls and know exactly when to turn.
 
-Ultrasonic sensor.
- See: attack, else: turn.
- 
- Color sensor.
- See: move forward or backward.
 
