@@ -1,11 +1,11 @@
 # 1.2 ultrasonic sensor
 
-####Learning Goals
+#### Learning Goals
 By the end of the lesson, students will be able to
 * read and write conditionals
 * identify ultrasonic sensor
 
-####Explore
+#### Explore
 Ask students: How do we keep from walking into tables and walls?
   + We have eyes to see where we're going and what's in front of us, but robots do not.
   + We can attach sensors to robots to give them more abilities.
@@ -13,8 +13,8 @@ Ask students: How do we keep from walking into tables and walls?
 ####Explain
 Have students open maze code.
 
-1. An ultrasonic sensor acts as the eyes of the robot, and can tell if there is an object in front. 
-2. To begin, we need to set a variable named devices to the ```read()``` function. This allows us to simply use the word devices when we need to call upon a sensor. 
+1. An ultrasonic sensor acts as the eyes of the robot, and can tell if there is an object in front.
+2. To begin, we need to set a variable named devices to the ```read()``` function. This allows us to simply use the word devices when we need to call upon a sensor.
 ```js
 var devices = read()
 ```
@@ -22,7 +22,7 @@ var devices = read()
 3. Now let's create a function to have the robot move forward until it sees a wall.
 ```js
 function forwardUntilWall() {
-  
+
 }
 ```
 
@@ -43,7 +43,7 @@ function forwardUntilWall () {
 5. The sensor is called using the command ```devices.sonic()```.
   + Within the parentheses, note the port number that the sensor is plugged into.
 6. If the ultrasonic sensor sees an object less than 5 inches away, it should stop.
-  + In this case, students may use a steer.stop in place of steer.rotations to have the robot fully stop. 
+  + In this case, students may use a steer.stop in place of steer.rotations to have the robot fully stop.
 7. If the robot is stopped in front of a wall, it will break out of the loop.
 ```js
 
@@ -75,8 +75,8 @@ steer.rotations(1, 50, 50)
 9. If a sensor is not working, students should check their code for the correct port number, and correct usage of equal signs.
 
 
-####Engage
+#### Engage
 1. Students will program their robot move forward until it sees a wall 5 inches away.
 
-####Justify
-Ask students to walk you through their ultrasonic code and explain each portion of the syntax. 
+#### Justify
+Ask students to walk you through their ultrasonic code and explain each portion of the syntax.
