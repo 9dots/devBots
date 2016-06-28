@@ -21,6 +21,7 @@ Students will use the design thinking method to creatively design their maze rob
 3. Some important aspects you should consider are attachment placement and building simple attachments. 
   + attachment placement - is the ultrasonic sensor facing the right direction?
   + simple attachments - clip attachments on and off in less than 3 minutes.
+  + button pusher - does your robot effectively push the 
  
  ####Engage
  Have students work in pairs to build their maze robots. 
