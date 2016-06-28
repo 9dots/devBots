@@ -5,11 +5,11 @@
    * [1.1 intro to maze](intro_to_maze.md)
    * [1.2 ultrasonic sensor](12_ultrasonic_sensor.md)
    * [1.3 reusable functions](13_reusable_functions.md)
+   * 1.4 building your robot
    * [1.5 maze rules](maze_rules.md)
    * [1.6 concepts](14_concepts.md)
        * [maze defining functions](maze_defining_functions.md)
        * [maze if/else conditionals](maze_ifelse_conditionals.md)
-   * 1.4 building your robot
 * [2. Sumo](sumo.md)
    * [2.1 intro to ev3.sh](sumo_lesson_1.md)
    * [2.2 building your robot](sumo_lesson_4.md)
