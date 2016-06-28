@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [1. Maze](maze.md)
+* [1.4 Maze](maze.md)
    * [1.1 intro to maze](intro_to_maze.md)
    * [1.2 ultrasonic sensor](12_ultrasonic_sensor.md)
    * [1.3 reusable functions](13_reusable_functions.md)
