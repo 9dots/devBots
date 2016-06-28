@@ -47,9 +47,9 @@ function back () {
 3. A function is a reusable set of instructions. The functions in ev3.sh are written like this:
 ```js
 function forward () {
-    out('moving forward')
-    steer.rotations(1, 40, 0)
-    out('done')
+      out('moving forward')
+      steer.rotations(1, 40, 0)
+      out('done')
 }
 ```
 
