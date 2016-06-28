@@ -64,9 +64,9 @@ function forward () {
 8. Create left and right functions with students and emphasize importance of correct syntax.
 ```js
 function right() {
-  out('turning right')
-  steer.rotations(1, 40, 50)
-  out('done')
+    out('turning right')
+    steer.rotations(1, 40, 50)
+    out('done')
 }
 ```
 
