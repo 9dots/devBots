@@ -52,6 +52,7 @@ function forward () {
   out('done')
 }
 ```
+
 4. 'out' displays its message on the right side of the screen when the function is called.
 5. steer.rotations accepts three parameters to control the robot's movements. 
   + The first parameter determines wheel rotation. 1 = one wheel rotation.
