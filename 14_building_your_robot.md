@@ -24,7 +24,7 @@ Students will use the design thinking method to creatively design their maze rob
   + button pusher - does your robot effectively push the 
  
  ####Engage
- Have students work in pairs to build their maze robots utilizing . 
+ Have students work in pairs to complete their [design thinking worksheet](https://docs.google.com/document/d/1YJpb-Y2JVNOmDa24Q4nmLAfJMj7NducZ1Xafb-Ya8wU/edit?usp=sharing). 
  
  ####Justify
  Ask students: What are the various attachments on your robot? What purpose do they serve?
