@@ -10,7 +10,7 @@ Ask students: How do we keep from walking into tables and walls?
   + We have eyes to see where we're going and what's in front of us, but robots do not.
   + We can attach sensors to robots to give them more abilities.
 
-####Explain
+#### Explain
 Have students open maze code.
 
 1. An ultrasonic sensor acts as the eyes of the robot, and can tell if there is an object in front.
@@ -22,21 +22,20 @@ var devices = read()
 3. Now let's create a function to have the robot move forward until it sees a wall.
 ```js
 function forwardUntilWall() {
-
 }
 ```
 
 4. The ultrasonic sensor will be used within a while loop and if/else statement.
 ```js
 function forwardUntilWall () {
-  while (true) {
-    if (devices.sonic(1) <= 50) {
-      steer.stop()
-      break
-    } else {
-      steer.forever(40, 0)
-    }
-  }
+      while (true) {
+          if (devices.sonic(1) <= 50) {
+              steer.stop()
+              break
+          } else {
+              steer.forever(40, 0)
+          }
+      }
 }
 ```
 
@@ -46,33 +45,25 @@ function forwardUntilWall () {
   + In this case, students may use a steer.stop in place of steer.rotations to have the robot fully stop.
 7. If the robot is stopped in front of a wall, it will break out of the loop.
 ```js
-
 function turnRight (x = 50, y = 1, z = 1) {
-  forwardUntilDistance(x)
-  right(y)
-  forward(z)
+      forwardUntilDistance(x)
+      right(y)
+      forward(z)
 }
-
 function forwardUntilWall () {
-  while (true) {
-    devices = read()
-    if (devices.sonic(1) <= 50) {
-      steer.stop()
-      break
-    } else {
-      steer.forever(40, 0)
-    }
-  }
+      while (true) {
+          devices = read()
+          if (devices.sonic(1) <= 50) {
+            steer.stop()
+            break
+          } else {
+            steer.forever(40, 0)
+          }
+      }
 }
-
-
-
-
-steer.rotations(1, 50, 50)
-
 ```
 
-9. If a sensor is not working, students should check their code for the correct port number, and correct usage of equal signs.
+8. If a sensor is not working, students should check their code for the correct port number, and correct usage of equal signs.
 
 
 #### Engage
