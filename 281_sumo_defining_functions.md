@@ -4,11 +4,9 @@
 Students will learn to define new functions to reuse a series of instructions.
 
 #### Explore
-Students will create functions to complete a maze. The goal is to complete the maze in the fewest lines of code.
+Students will create functions to move robot in a square. The goal is to complete the square in the fewest lines of code.
 
-(Create staircase maze)
-
-1. Have students complete maze with their robots using only the forward, back, left, and right functions.
+1. Have students complete a square with their robots using only the forward, back, left, and right functions.
 
 #### Questions
   + How many lines of code have you written?
@@ -25,17 +23,21 @@ Students will create functions to complete a maze. The goal is to complete the m
 6. Then, the function requires open and close curly braces. The instructions for the function will be written between the two curly braces.
   + Once the open curly brace is written, immediately press enter to create the closing curly brace. This will also leave a line between the two curly braces to write the instructions.
 ```js
-function forward () {
-        out('moving forward')
-        steer.rotations(1, 40, 0)
-        out('done')
+function rectangle () {
+        forward(2)
+        left(50)
+        forward(4)
+        left(50)
+        forward(2)
+        left(50)
+        forward(4)
 }
 ```
 
 #### Engage
-1. Students will create new functions to shorten their code to complete the maze.
+1. Students will create new functions to shorten their code to complete a square.
 2. Tally number of commands each student had to enter.
-3. Students should save code as 'defining functions'. (This code should be separate from their sumo code).
+3. Discuss how each group was able to shorten their code to complete the square.
 
 
 #### Justify

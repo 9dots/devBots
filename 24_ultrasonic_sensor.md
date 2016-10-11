@@ -1,7 +1,7 @@
 # ultrasonic sensor
 
 #### Learning Goals
-By the end of the lesson, students will be able to
+By the end of lesson, students will be able to
 * read and write conditionals
 * identify ultrasonic sensor
 
@@ -14,32 +14,64 @@ Ask students: How do we keep from walking into tables and walls?
 Have students open sumo code.
 
 1. An ultrasonic sensor acts as the eyes of the robot, and can tell if there is an object in front.
-2. To begin, we need to set a variable named devices to the ```read()``` function. This allows us to simply use the word devices when we need to call upon a sensor.
+2. To begin, we create a function that will utilize the ultrasonic sensor.
+  + Ask students to think about the main goal of this function before naming it. Will it attack, find, or run away from its opponent?
 ```js
-var devices = read()
-```
+function attack () {
 
-3. The ultrasonic sensor will be used within an if/else condition.
-```js
-if (devices.sonic(1) <= 24) {
-      steer.forever(100, 0)
 }
 ```
 
-4. The sensor is called using the command ```devices.sonic()```.
-  + Within the parentheses, note the port number that the sensor is plugged into.
-5. If the ultrasonic sensor sees an object less than 24 inches away, it should charge toward it.
-  + In this case, students may use a steer.forever in place of steer.rotations to have the robot charge forward as much as necessary to beat its opponent.
-6. If the robot is not locating another object and charging forward, what else should it do?
-  + Robot can spin until it sees another object.
-7. As a group, add an else statement.
+3. Create a ```while(true)``` loop inside the function. This will ensure that the code is running as long as one of the conditions is true.
 ```js
-if (devices.sonic(1) <= 240) {
+function attack () {
+  while(true) {
+
+  }
+}
+```
+
+4. Set a variable named sensor to the ```read()``` function. This allows us to simply use the word sensor when we need to call upon a sensor.
+```js
+function attack () {
+  while(true) {
+    var sensor = read()
+  }
+}
+```
+
+5. The ultrasonic sensor will be used within an if/else condition.
+```js
+function attack () {
+  while(true) {
+    var sensor = read()
+    if (sensor.sonic(1) <= 240) {
       steer.forever(100, 0)
-  } else if (color === 5) {
-      steer.rotations(-1, 100, 0)
-  } else {
-      steer.forever(30, 70)
+    }
+  }
+}
+```
+
+6. The sensor is called using the command ```sensor.sonic()```.
+  + Within the parentheses, note the port number that the sensor is plugged into.
+7. If the ultrasonic sensor sees an object less than 24 inches away, it should charge toward it.
+  + In this case, students may use a steer.forever in place of steer.rotations to have the robot charge forward as much as necessary to beat its opponent.
+  + Distance is read in milliliters, so please add a '0' at the end of number of inches.
+8. If the robot is not locating another object and charging forward, what else should it do?
+  + Robot can spin until it sees another object.
+9. As a group, add an else statement.
+```js
+function attack () {
+  while(true) {
+    var sensor = read()
+    if (sensor.sonic(1) <= 240) {
+        steer.forever(100, 0)
+    } else if (color === 5) {
+        steer.rotations(-1, 100, 0)
+    } else {
+        steer.forever(30, 70)
+    }
+  }
 }
 ```
 

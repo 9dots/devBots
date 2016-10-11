@@ -19,27 +19,47 @@ Students will learn to create new functions to simplify their code. To begin, st
 
 ```js
 var {loop, move, motor, read, sleep, out} = require('robot-loop')
-loop(main /*,ip address*/)
+loop(main, '/*,ip address*/', {
+  teamName: '',
+  teamColor: '',
+  game: ''
+})
 
 var steer = move()
 
-function main (input) {
+function main (input, rot) {
   if (input === 'forward') {
-    forward()
+    forward(rot)
   } else if (input === 'back') {
-    back()
+    back(rot)
+  } else if (input === 'left') {
+    left(rot)
+  } else if (input === 'right') {
+    right(rot)
   }
 }
 
-function forward () {
+function forward (rot) {
   out('moving forward')
-  steer.rotations(1, 40, 0)
+  steer.rotations(rot, 40, 0)
   out('done')
 }
 
-function back () {
+function back (rot) {
   out('moving back')
-  steer.rotations(-1, 40, 0)
+  steer.rotations(-rot, 40, 0)
+  out('done')
+}
+
+function left (rot) {
+  out('turning left')
+  steer.rotations(1, 40, -rot)
+  out('done')
+}
+
+function right (rot) {
+  out('turning right')
+  steer.rotations(1, 40, rot)
   out('done')
 }
 ```
@@ -48,22 +68,21 @@ function back () {
 2. The main function sets up the interactive page on the right side of the screen. Students may call functions in the ev3 input box to move robot.
 3. A function is a reusable set of instructions. The functions in ev3.sh are written like this:
 ```js
-function forward () {
+function forward (rot) {
       out('moving forward')
-      steer.rotations(1, 40, 0)
+      steer.rotations(rot, 40, 0)
       out('done')
 }
 ```
 4. 'out' displays its message on the right side of the screen when the function is called.
 5. steer.rotations accepts three parameters to control the robot's movements.
-  + The first parameter determines wheel rotation. 1 = one wheel rotation.
-  + Second parameter determines speed. Speed can be any number between 1 - 100.
+  + The first parameter determines wheel rotation. rot will determine the number of wheel rotations for the forward function.
+  + Second parameter determines speed. Speed can be any number between 1 - 100. The higher the number, the faster the speed.
   + Third parameter determines direction. 0 is straight. A number between -100 and -1 controls severity of left turn. A number between 1 and 100 controls severity of right turn.
-  + **The forward function in the starter code moves one wheel rotation, at a speed of 40, in the straight direction.**  
+  + **The forward function in the starter code moves forward in wheel rotations, at a speed of 40, in the straight direction. The rot will determine how many wheel rotations.**
 
-6. Have students walk through back function and explain the steer.rotations parameters.
-7. Create left and right functions with students and emphasize importance of correct syntax.
-8. Any changes must be saved by pushing the ```Run Code``` button.
+6. Have students talk through back function and explain the steer.rotations parameters.
+7. Any changes to code must be saved by pushing the ```Run Code``` button.
 
 
 To take a deep dive into functions, see 'defining functions' lesson.
